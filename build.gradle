@@ -16,10 +16,10 @@ targetCompatibility = 1.8
 
 group 'org.indilib.i4j'
 description = 'INDIForJava-server'
-version '2.0.1'
+version '2.0.2'
 
 dependencies {
-    api 'com.github.INDIForJava:INDIForJava-driver:2.0.0'
+    api 'com.github.INDIForJava:INDIForJava-driver:22ce57eac6'
     implementation 'org.jboss:jandex:2.3.0.Final'
     implementation 'org.glassfish.tyrus:tyrus-server:2.0.0'
 }
